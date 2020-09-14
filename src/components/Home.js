@@ -6,5 +6,4 @@ const Home = () => (
         <h3>Add a new task to your <Link to="/todos">HoneyDo List</Link>!</h3>
     </div>
 )
-
 export default Home;

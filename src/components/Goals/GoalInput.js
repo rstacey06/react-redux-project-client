@@ -28,7 +28,7 @@ class GoalInput extends Component {
             <Form inverted className="new-goal form" onSubmit={(event) => this.handleOnSubmit(event)}>
                 <Form.Field>
                     <label className="form-label">Add Goal</label>
-                    <input placeholder="Actionable milestones to reach your todo" id="description" required value={this.state.description} onChange={this.handleChange} />
+                    <input placeholder="Goals" id="description" required value={this.state.description} onChange={this.handleChange} />
                 </Form.Field>
 
                 <Button disabled={!validated} size='mini' type="submit">Submit</Button>

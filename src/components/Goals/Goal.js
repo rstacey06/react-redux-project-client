@@ -10,10 +10,7 @@ export default class Goal extends Component {
     render() {
         return(
             <div>
-                {/* <Icon className="pointer" name='edit' color='blue' onClick={() => console.log("editing")} /> */}
-
                 <Icon className="pointer" name='delete' color='red' onClick={() => this.props.deleteGoal(this.props.id)} />{this.props.description}
-
             </div>
         )
     }

@@ -18,5 +18,4 @@ const Todos = props => {
         </Container>
     );
 };
-
 export default Todos;

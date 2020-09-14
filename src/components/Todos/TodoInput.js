@@ -46,5 +46,4 @@ class TodoInput extends Component {
         )
     }
 }
-
 export default connect(null, { addTodo })(TodoInput);
