@@ -1,7 +1,3 @@
-// CONTAINER COMPONENTS
-// usually class components, usually render other components
-// a neater way to organize: these components render the components in the Components folder
-
 import React, { Component } from 'react';
 import Todos from '../components/Todos/Todos';
 import TodoInput from '../components/Todos/TodoInput';
@@ -28,14 +24,12 @@ class TodosContainer extends Component {
     }
 }
 
-// mapStateToProps: we want access to what's in the store
 const mapStateToProps = (state) => {
     return {
         todos: state.todos.todosData
     }
 }
 
-// mapDispatchToProps: we want the ability to dispatch new actions to our store from our component
 const mapDispatchToProps = dispatch => ({
     fetchTodos: () => dispatch(fetchTodos()),
     deleteTodo: id => dispatch(deleteTodo(id))
