@@ -17,5 +17,5 @@ export default function todosReducer(state = {
                 return {...state, loading: false, todosData: state.todosData.filter(todo => todo.id !== action.payload.id)}
             default:
                 return state;
-        }
-}
+              }
+            }

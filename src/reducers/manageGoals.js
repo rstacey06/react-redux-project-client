@@ -16,5 +16,5 @@ export default function goalsReducer(state = {
             return {...state, goalsData: [...state.goalsData.map(goal => goal.id === action.payload.id ? {...goal, completed: !goal.completed} : goal )]}
         default:
             return state;
-    }
-}
+          }
+        }
