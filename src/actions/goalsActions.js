@@ -75,4 +75,4 @@ export const toggleCompleted = id => {
             }))
             .catch(err => err)
     }
-}
+} 

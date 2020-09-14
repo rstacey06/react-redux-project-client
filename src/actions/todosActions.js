@@ -1,4 +1,3 @@
-
 const todosURL = "http://localhost:3000/api/todos"
 
 export const fetchTodos = () => {
