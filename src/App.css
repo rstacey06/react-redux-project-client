@@ -1,0 +1,76 @@
+.App-header {
+  background-color: #fcfcfc;
+  background-image: url('https://boostlikes-bc85.kxcdn.com/blog/wp-content/uploads/2017/06/Automatically-Message-Facebook-Fans.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -40px;
+  min-height: 24vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(19px);
+  color: white);
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.App-link {
+  color: rgb(99, 97, 97);
+}
+
+div.todo, div.goals-box {
+  width: 80%;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: medium;
+  background-color: gray;
+  margin: 10px;
+  color: skyblue;
+}
+
+.new-todo-form {
+  width: 45%;
+  padding: 30px;
+  border-color: rgb(253, 252, 252);
+  color: black;
+  position: relative;
+}
+
+.new-goal-form {
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+h3.ui.header.tagline {
+  color: white;
+  padding: 20px;
+}
+
+.goal-items {
+  list-style: none;
+}
+
+body {
+  background-color: gray;
+}
+
+button.ui.red.mini.button.delete-button {
+  float: right;
+  margin-top: -20px;
+}
+
+button.ui.green.mini.button.complete-button {
+  float: right;
+  margin-top: -20px;
+}
+
+i.red.delete.icon.pointer {
+  cursor: pointer;
+}
